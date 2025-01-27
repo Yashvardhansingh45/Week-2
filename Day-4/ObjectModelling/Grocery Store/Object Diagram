@@ -1,0 +1,26 @@
++---------------------------+
+| customer1: Customer       |
++---------------------------+
+| customerId: 001           |
+| name: Alice               |
++---------------------------+
+| Products:                 |
+|  - product1: Apples       |
+|  - product2: Milk         |
++---------------------------+
+
++---------------------------+
+| product1: Product         |
++---------------------------+
+| productName: Apples       |
+| quantity: 2 kg            |
+| pricePerUnit: $3          |
++---------------------------+
+
++---------------------------+
+| product2: Product         |
++---------------------------+
+| productName: Milk         |
+| quantity: 1 liter         |
+| pricePerUnit: $2          |
++---------------------------+

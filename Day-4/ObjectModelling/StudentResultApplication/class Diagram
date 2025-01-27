@@ -1,0 +1,14 @@
++-----------------------+            +---------------------+            +--------------------------+
+|       Student         |<>--------->|      Subject        |            |    GradeCalculator       |
++-----------------------+            +---------------------+            +--------------------------+
+| - studentId           |            | - subjectName       |            |                          |
+| - name                |            | - marks             |            +--------------------------+
+|                       |            +---------------------+            | + calculateGrade()       |
++-----------------------+                                            |
+| + getTotalMarks()     |                                            |
+| + getGrade()          |                                            |
++-----------------------+                                            |
+                                                                     |
+Relationship:                                                        |
+- Student aggregates multiple Subjects.                              |
+- GradeCalculator computes grades for Students.                     |

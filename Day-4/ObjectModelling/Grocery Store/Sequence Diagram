@@ -1,0 +1,15 @@
+Actor: Customer
+Objects: BillGenerator, Product
+---
+Customer              BillGenerator              Product
+   |                        |                       |
+   | requestBill()          |                       |
+   |----------------------->|                       |
+   |                        | getProductDetails()   |
+   |                        |---------------------> |
+   |                        |        Details        |
+   |                        |<--------------------- |
+   | calculateTotal()       |                       |
+   |----------------------->|                       |
+   |       Total            |                       |
+   |<-----------------------|                       |
