@@ -1,0 +1,14 @@
++-------------------------+             +-----------------------+             +-----------------------+
+|       Customer          |<>-----------|       Product         |             |     BillGenerator     |
++-------------------------+             +-----------------------+             +-----------------------+
+| - customerId            |             | - productName         |             |                       |
+| - name                  |             | - quantity            |             +-----------------------+
+|                         |             | - pricePerUnit        |             | + calculateTotal()    |
++-------------------------+             +-----------------------+             |                       |
+| + addProduct()          |                                                 +-----------------------+
+| + viewBill()            |
++-------------------------+
+
+Relationships:
+- A **Customer** purchases multiple **Product** items (Composition).
+- **BillGenerator** computes the total cost for the Customer.
